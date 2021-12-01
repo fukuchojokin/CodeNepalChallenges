@@ -8,7 +8,7 @@ public class Problem1Solution {
     void solution(int[] arr) {
         for (int i = 0; i < arr.length; ++i) {
             for (int j = 0; j < i; ++j) {
-                for (int k = 0; k < j; k++) {
+                for (int k = 0; k < j; ++k) {
                     if (arr[i] + arr[j] + arr[k] == 0) {
                         List<Integer> thisArr = new ArrayList<>();
                         thisArr.add(arr[i]);
