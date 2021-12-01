@@ -2,7 +2,7 @@ package Problem1;
 
 import java.util.*;
 
-public class Solution {
+public class Probelm1Solution {
     List<List<Integer>> list = new ArrayList<>();
 
     void solution(int[] arr) {
