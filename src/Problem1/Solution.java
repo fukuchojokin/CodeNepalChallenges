@@ -1,4 +1,4 @@
-package com.company;
+package Problem1;
 
 import java.util.*;
 
